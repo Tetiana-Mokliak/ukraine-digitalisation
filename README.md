@@ -1,51 +1,55 @@
-# Ukraine’s Digital Transformation: A European Perspective
+# Цифровізація України в європейському контексті
 
-An exploratory analysis of **digital government development** and **business ICT adoption** in Ukraine and the European Union, prepared with Excel, Power Query and Tableau.
+**Українська** | [English](README.en.md)
 
-## Research question
+Дослідницький аналіз **розвитку електронного урядування** та **використання ІКТ бізнесом** в Україні й Європейському Союзі. Інструменти: Excel, Power Query, Tableau.
 
-How has Ukraine’s position in digital government changed, and how does business adoption of digital technologies compare with the EU?
+## Дослідницьке питання
 
-The analysis compares distinct dimensions of digitalisation. Cross-country associations are descriptive and do not establish causation.
+Як змінювалися позиції України в електронному урядуванні та як використання цифрових технологій підприємствами співвідноситься з показниками ЄС?
 
-## Dashboards
+Дослідження зіставляє різні напрями цифровізації. Зв’язки між показниками мають описовий характер і не доводять причинності.
+
+## Дашборди
 
 ### Digital Government
-- EGDI trends for Ukraine and EU countries, with the EU-27 median as a benchmark.
-- Ukraine versus the EU-27 median for online services, human capital, telecommunications infrastructure and the additional E-Participation Index.
-- Ukraine’s position within the distribution of EU-country EGDI scores across survey editions.
 
-Ukraine’s EGDI reached **0.88407** in 2024, slightly above the EU-27 median of **0.8759**.
+- Динаміка EGDI України та країн ЄС із медіаною ЄС-27 як орієнтиром.
+- Порівняння України з медіаною ЄС-27 за онлайн-послугами, людським капіталом, телекомунікаційною інфраструктурою та додатковим індексом електронної участі.
+- Положення України в розподілі значень EGDI країн ЄС за випусками дослідження.
+
+У 2024 році EGDI України становив **0,88407**, дещо перевищивши медіану ЄС-27 — **0,8759**.
 
 ### Business Digitalisation
-- Country-by-indicator heatmap.
-- Overlaid bars comparing Ukraine with the official EU-27 aggregate.
-- Indicator-selectable time series with a territorial-coverage annotation.
-- Country scatterplots comparing EGDI with a selected business indicator in 2022 or 2024.
 
-The business visualisations cover AI, BI, cloud services, data analytics, e-commerce, ERP, internet use for work and websites. Availability differs by indicator and year.
+- Теплова карта «країна × індикатор».
+- Накладені стовпчики: Україна та офіційний агрегат ЄС-27.
+- Часові ряди з вибором індикатора й позначкою зміни територіального охоплення.
+- Діаграми розсіювання: EGDI та вибраний бізнес-показник за 2022 або 2024 рік.
 
-## Data and methodology
+Візуалізації охоплюють ШІ, BI, хмарні послуги, аналітику даних, електронну торгівлю, ERP, використання інтернету для роботи й вебсайти. Наявність даних залежить від індикатора та року.
 
-| Dataset | Coverage | File |
+## Дані й методологія
+
+| Набір | Охоплення | Файл |
 |---|---|---|
-| UN e-government indicators | 193 countries; 12 survey editions, 2003–2024; 2,316 rows | [EGOV_Union_Tableau_Analysis.xlsx](data/EGOV_Union_Tableau_Analysis.xlsx) |
-| Business ICT indicators | Countries and EU aggregate; available observations, 2017–2026; 1,869 rows | [Ukraine_Europe_ICT_Tableau_clean.csv](data/Ukraine_Europe_ICT_Tableau_clean.csv) |
+| Індекси електронного урядування ООН | 193 країни; 12 випусків за 2003–2024 роки; 2 316 рядків | [EGOV_Union_Tableau_Analysis.xlsx](data/EGOV_Union_Tableau_Analysis.xlsx) |
+| Показники ІКТ бізнесу | Країни та агрегат ЄС; доступні спостереження за 2017–2026 роки; 1 869 рядків | [Ukraine_Europe_ICT_Tableau_clean.csv](data/Ukraine_Europe_ICT_Tableau_clean.csv) |
 
-The stored ICT dataset is broader than the dashboard selection. CRM, digital intensity and 2026 observations are excluded from the final dashboard scope.
+Збережений набір ІКТ ширший за вибірку дашбордів. CRM, цифрова інтенсивність і спостереження за 2026 рік не включені до фінальних візуалізацій.
 
-See [Methodology](docs/methodology.md) for definitions, preparation rules and limitations.
+Визначення, правила підготовки й обмеження описані в [методології](docs/methodology.uk.md).
 
-## Sources
+## Джерела
 
 - [UN DESA — E-Government Knowledgebase](https://publicadministration.un.org/egovkb/en-us/Data-Center)
-- [State Statistics Service of Ukraine — ICT usage in enterprises](https://stat.gov.ua/uk/datasets/vykorystannya-informatsiyno-komunikatsiynykh-tekhnolohiy-na-pidpryyemstvakh)
-- Eurostat — enterprise ICT and e-commerce statistics; dataset codes are documented in the methodology.
+- [Держстат України — використання ІКТ на підприємствах](https://stat.gov.ua/uk/datasets/vykorystannya-informatsiyno-komunikatsiynykh-tekhnolohiy-na-pidpryyemstvakh)
+- Євростат — статистика ІКТ та електронної торгівлі підприємств; коди наборів наведені в методології.
 
-## Interpretation
+## Інтерпретація
 
-- EGDI scores range from 0 to 1; ICT values are stored on a 0–100 scale.
-- Internet for Work refers to employed persons; the other selected ICT indicators refer to enterprises.
-- The EGDI benchmark is the median of EU-27 country scores. The ICT benchmark is the published EU27_2020 aggregate.
-- Missing values are not zero. Survey gaps are not filled with invented observations.
-- Changes in territorial coverage limit direct comparisons of Ukrainian business statistics across time.
+- Індекси EGDI мають шкалу 0–1, показники ІКТ — 0–100.
+- Internet for Work стосується зайнятих осіб; решта вибраних ІКТ-показників — підприємств.
+- Для EGDI орієнтиром є медіана країн ЄС-27; для ІКТ — опублікований агрегат EU27_2020.
+- Пропуски не є нулями. Відсутні спостереження між випусками не заповнюються вигаданими значеннями.
+- Зміни територіального охоплення обмежують прямі часові порівняння української статистики бізнесу.
