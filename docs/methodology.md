@@ -1,5 +1,7 @@
 # Methodology
 
+[Українська](methodology.uk.md) | **English** · [Project overview](../README.en.md)
+
 ## Scope
 
 This exploratory study compares Ukraine’s development in digital government with enterprise ICT adoption in a European context. The dashboards use a fixed EU-27 comparison group plus Ukraine. The stored source tables also retain other countries, indicators and years.
@@ -51,6 +53,7 @@ Ukraine control values: EGDI 0.46167 and global rank 54 in 2003; EGDI 0.88407 an
 Eurostat and Ukrainian observations were assembled into long format. The observation key is country + year + indicator + series.
 
 The CSV contains 1,869 records for 2017–2026:
+
 - 1,450 EU-member-country records;
 - 316 other-European-country records;
 - 53 EU-27 aggregate records;
