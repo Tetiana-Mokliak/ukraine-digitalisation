@@ -14,6 +14,8 @@
 
 **[Відкрити інтерактивні дашборди в Tableau Public](https://public.tableau.com/app/profile/tania.mokliak/viz/DigitalisationinUkraineAEuropeanPerspective/DigitalGovernment#1)**
 
+**[Читати статтю з висновками та рекомендаціями (українською, Word)](docs/Ukraine_Digitalisation_Article_UA.docx)**
+
 Дві сторінки: **Digital Government** та **Business Digitalisation**. Перемикання — кнопками на дашборді.
 
 ### Digital Government

@@ -14,6 +14,8 @@ The analysis compares distinct dimensions of digitalisation. Cross-country assoc
 
 **[Explore the interactive dashboards on Tableau Public](https://public.tableau.com/app/profile/tania.mokliak/viz/DigitalisationinUkraineAEuropeanPerspective/DigitalGovernment#1)**
 
+**[Read the article with findings and recommendations (Ukrainian, Word)](docs/Ukraine_Digitalisation_Article_UA.docx)**
+
 Two pages: **Digital Government** and **Business Digitalisation**. Use the dashboard navigation buttons to switch between them.
 
 ### Digital Government
