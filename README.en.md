@@ -12,6 +12,10 @@ The analysis compares distinct dimensions of digitalisation. Cross-country assoc
 
 ## Dashboards
 
+**[Explore the interactive dashboards on Tableau Public](https://public.tableau.com/app/profile/tania.mokliak/viz/DigitalisationinUkraineAEuropeanPerspective/DigitalGovernment#1)**
+
+Two pages: **Digital Government** and **Business Digitalisation**. Use the dashboard navigation buttons to switch between them.
+
 ### Digital Government
 
 - EGDI trends for Ukraine and EU countries, with the EU-27 median as a benchmark.
