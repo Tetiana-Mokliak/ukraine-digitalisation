@@ -12,6 +12,10 @@
 
 ## Дашборди
 
+**[Відкрити інтерактивні дашборди в Tableau Public](https://public.tableau.com/app/profile/tania.mokliak/viz/DigitalisationinUkraineAEuropeanPerspective/DigitalGovernment#1)**
+
+Дві сторінки: **Digital Government** та **Business Digitalisation**. Перемикання — кнопками на дашборді.
+
 ### Digital Government
 
 - Динаміка EGDI України та країн ЄС із медіаною ЄС-27 як орієнтиром.
